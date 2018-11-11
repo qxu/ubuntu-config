@@ -186,5 +186,10 @@ bindsym XF86MonBrightnessDown exec ~/.config/i3/brightness_dec.sh # decrease scr
 # bindsym XF86AudioNext exec playerctl next
 # bindsym XF86AudioPrev exec playerctl previous
 
+exec xinput --set-prop "Synaptics TM3053-004" "libinput Tapping Enabled" 1
+exec xinput --set-prop "Synaptics TM3053-004" "libinput Natural Scrolling Enabled" 1
+
 exec_always feh --bg-fill ~/Pictures/wallhaven-644594.png
+
 exec --no-startup-id nm-applet
+
