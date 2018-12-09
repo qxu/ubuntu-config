@@ -38,7 +38,8 @@ def key_indicator():
         if caps_str == 'on':
             return {
                 'full_text' : 'CAPS LOCK ON',
-                'name' : name
+                'name' : name,
+                'color': '#FFFF00'
             }
 
 def brightness():

@@ -1,4 +1,3 @@
 #!/bin/sh
-light -A 25
 
-notify-send --expire-time=1000 "Brightness: $(light -G)%"
+notify-send --expire-time=1000 "Brightness: $(~/.config/i3/brightness.py -i)"
